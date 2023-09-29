@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/menu_group">
+        <item
+            android:id="@+id/toggle_units"
+            android:icon="@drawable/units_f"
+            android:title="farenheit"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/daily_forecast"
+            android:icon="@drawable/daily"
+            android:title="DailyForecast"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/change_location"
+            android:icon="@drawable/location"
+            android:title="ChangeLocation"
+            app:showAsAction="always" />
+    </group>
+</menu>
